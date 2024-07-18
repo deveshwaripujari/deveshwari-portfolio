@@ -31,3 +31,48 @@ body {
 header {
     font-size: 1.5rem; /* Increased from 1.25rem */
 }
+
+/* Animation delay classes */
+.animate__delay-1s {
+    animation-delay: 1s;
+}
+
+.animate__delay-2s {
+    animation-delay: 2s;
+}
+
+.animate__delay-3s {
+    animation-delay: 3s;
+}
+
+.animate__delay-4s {
+    animation-delay: 4s;
+}
+
+.animate__delay-5s {
+    animation-delay: 5s;
+}
+
+.animate__delay-6s {
+    animation-delay: 6s;
+}
+
+.animate__delay-7s {
+    animation-delay: 7s;
+}
+
+.animate__delay-8s {
+    animation-delay: 8s;
+}
+
+.animate__delay-9s {
+    animation-delay: 9s;
+}
+
+.animate__delay-10s {
+    animation-delay: 10s;
+}
+
+.animate__delay-11s {
+    animation-delay: 11s;
+}
