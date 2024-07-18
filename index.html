@@ -9,15 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
 </head>
 <body class="bg-gray-100">
     <!-- Header Section -->
-    <header class="bg-primary text-white p-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold">Deveshwari Pujari</h1>
+    <header class="bg-primary text-white p-6 flex justify-between items-center" style="font-size: 1.25rem;">
+        <h1 class="text-3xl font-bold">Deveshwari Pujari</h1>
         <nav>
-            <ul class="flex space-x-4">
+            <ul class="flex space-x-6">
                 <li><a href="#about" class="hover:underline">About</a></li>
                 <li><a href="#skills" class="hover:underline">Skills</a></li>
                 <li><a href="#education" class="hover:underline">Education</a></li>
@@ -30,13 +30,18 @@
 
     <!-- Hero Section -->
     <section class="relative flex items-center justify-center text-center text-white h-screen bg-gradient-to-r from-purple-600 to-red-500">
-        <div id="particles-js"></div>
+        <div id="particles-js" class="absolute w-full h-full"></div>
+        <script>
+            particlesJS.load('particles-js', 'particles.json', function() {
+                console.log('callback - particles.js config loaded');
+            });
+        </script>
         <div class="z-10 flex flex-col items-center md:flex-row">
-            <img src="images/profile.jpg" alt="Deveshwari Pujari" class="rounded-full w-48 h-48 animate__animated animate__fadeInLeft">
-            <div class="mt-4 md:mt-0 md:ml-8">
-                <h2 class="text-5xl font-bold animate__animated animate__fadeInDown">Hello, I'm Deveshwari Pujari</h2>
-                <p class="text-2xl mt-4 animate__animated animate__fadeInUp">Software Developer - San Jose, CA, USA</p>
-                <a href="#contact" class="mt-6 inline-block bg-secondary text-white px-6 py-3 rounded-full text-xl font-semibold animate__animated animate__fadeInUp animate__delay-1s">Contact Me</a>
+            <img src="images/profile.jpg" alt="Deveshwari Pujari" class="rounded-full w-64 h-64 animate__animated animate__fadeInLeft">
+            <div class="mt-4 md:mt-0 md:ml-12">
+                <h2 class="text-6xl font-bold animate__animated animate__fadeInDown">Hello, I'm Deveshwari Pujari</h2>
+                <p class="text-3xl mt-4 animate__animated animate__fadeInUp">Software Developer - San Jose, CA, USA</p>
+                <a href="#contact" class="mt-8 inline-block bg-secondary text-white px-8 py-4 rounded-full text-2xl font-semibold animate__animated animate__fadeInUp animate__delay-1s">Contact Me</a>
             </div>
         </div>
     </section>
@@ -146,11 +151,11 @@
                     <h3 class="text-2xl font-semibold text-secondary">Software Developer</h3>
                     <p class="text-lg text-gray-700 mt-2">Scrivner Solutions Inc. | July 2024 - Present</p>
                     <ul class="list-disc ml-6 mt-4 text-gray-700">
-                        <li>Led Agile development of Insurance and Booking management systems, reducing bi-weekly sprint cycle times by 20% through strategic frontend/backend containerization with Docker.</li>
-                        <li>Guided 300 students in SQL & NoSQL, and collaborated with 55 teams on impactful projects with Shiny, Django/Flask, JavaScript, and Firebase.</li>
-                        <li>Implemented TDD in CI/CD pipeline, achieving 85% coverage with JUnit tests, enabling swift bug detection.</li>
-                        <li>Optimized database queries, enhancing performance by 30% for various student projects.</li>
-                        <li>Technologies: Docker, JUnit, SQL, NoSQL, Shiny, Django, Flask, JavaScript, Firebase.</li>
+                        <li>Develop software prototypes and applications.</li>
+                        <li>Understand and analyze client requirements.</li>
+                        <li>Perform testing and debugging of applications.</li>
+                        <li>Collaborate with team members to drive innovation in AI solutions for healthcare.</li>
+
                     </ul>
                 </div>
 
