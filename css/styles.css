@@ -3,19 +3,19 @@ body {
 }
 
 .bg-primary {
-    background-color: #4A90E2;
+    background-color: #6A0DAD; /* Purple tone */
 }
 
 .text-primary {
-    color: #4A90E2;
+    color: #6A0DAD; /* Purple tone */
 }
 
 .bg-secondary {
-    background-color: #D0021B;
+    background-color: #d83288;
 }
 
 .text-secondary {
-    color: #D0021B;
+    color: #d83288;
 }
 
 #particles-js {
